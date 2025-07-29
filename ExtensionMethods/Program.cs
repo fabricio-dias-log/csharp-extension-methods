@@ -2,6 +2,7 @@
 
 class Program {
     static void Main(string[] args) {
-        Console.WriteLine("Hello, World!");
+        DateTime dt = new DateTime(2025, 07, 28, 20, 10, 45);
+        Console.WriteLine(dt.ElapsedTime());
     }
 }
